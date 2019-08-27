@@ -17,6 +17,7 @@ public class TestDemo
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://www.google.com");
+		System.out.println(driver.getCurrentUrl());
 	
 	}
 
